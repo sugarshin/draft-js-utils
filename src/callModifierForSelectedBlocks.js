@@ -32,7 +32,7 @@ export default (editorState, modifier, ...args) => {
   const selectedBlocks = getSelectedBlocks(contentState, startKey, endKey);
 
   let finalEditorState = editorState;
-  selectedBlocks.forEach(block => {
+  selectedBlocks.forEach((block) => {
     const currentBlockKey = block.getKey();
     let selectionStart = startOffset;
     let selectionEnd = endOffset;

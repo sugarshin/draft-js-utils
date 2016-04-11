@@ -59,7 +59,7 @@ editorState = EditorState.forceSelection(
   }),
 );
 
-describe.only('callModifierForSelectedBlocks', () => {
+describe('callModifierForSelectedBlocks', () => {
   let splitState;
   let first;
   let last;
