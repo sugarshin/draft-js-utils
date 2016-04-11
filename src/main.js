@@ -7,3 +7,4 @@ export type {CharacterMetaList} from './getEntityRanges';
 
 export {default as getSelectedBlocks} from './getSelectedBlocks';
 export {default as selectionContainsEntity} from './selectionContainsEntity';
+export {default as callModifierForSelectedBlocks} from './callModifierForSelectedBlocks';
