@@ -58,7 +58,7 @@ editorState = EditorState.forceSelection(
   editorState,
   new SelectionState({
     anchorKey: first.getKey(),
-    anchoeOffset: 0,
+    anchorOffset: 0,
     focusKey: last.getKey(),
     focusOffset: last.getLength(),
   }),
@@ -78,7 +78,7 @@ describe('selectionContainsEntity', () => {
       editorState,
       new SelectionState({
         anchorKey: first.getKey(),
-        anchoeOffset: 0,
+        anchorOffset: 0,
         focusKey: first.getKey(),
         focusOffset: first.getLength(),
       }),
@@ -90,7 +90,7 @@ describe('selectionContainsEntity', () => {
   it('should allow passing in a custom selection', () => {
     const lastBlockWithEntity = new SelectionState({
       anchorKey: last.getKey(),
-      anchoeOffset: 0,
+      anchorOffset: 0,
       focusKey: last.getKey(),
       focusOffset: last.getLength(),
     });
@@ -99,7 +99,7 @@ describe('selectionContainsEntity', () => {
 
     const lastBlockWithoutEntity = new SelectionState({
       anchorKey: last.getKey(),
-      anchoeOffset: 0,
+      anchorOffset: 0,
       focusKey: last.getKey(),
       focusOffset: 10,
     });
@@ -108,7 +108,7 @@ describe('selectionContainsEntity', () => {
 
     const firstBlockWithoutEntity = new SelectionState({
       anchorKey: first.getKey(),
-      anchoeOffset: 0,
+      anchorOffset: 0,
       focusKey: first.getKey(),
       focusOffset: first.getLength(),
     });
