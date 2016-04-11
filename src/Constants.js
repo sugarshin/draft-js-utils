@@ -17,7 +17,7 @@ export const BLOCK_TYPE = {
 
 export const ENTITY_TYPE = {
   LINK: 'LINK',
-  IMAGE: 'IMAGE'
+  IMAGE: 'IMAGE',
 };
 
 export const INLINE_STYLE = {
