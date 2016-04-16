@@ -13,7 +13,8 @@
   },
   "dependencies": {},
   "peerDependencies": {
-    "draft-js": "^0.4.0"
+    "draft-js": "^0.4.0",
+    "immutable": "^3.7.4"
   },
   "devDependencies": {
     "babel-cli": "^6.6.5",
